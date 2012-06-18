@@ -1,29 +1,3 @@
-# ===================================================================================================================
-# Template for generating a no-frills Rails application with support for ElasticSearch full-text search via Tire
-# ===================================================================================================================
-#
-# This file creates a basic, fully working Rails application with support for ElasticSearch full-text search
-# via the Tire gem [http://github.com/karmi/tire].
-#
-# You DON'T NEED ELASTICSEARCH INSTALLED, it is installed and launched automatically by this script.
-#
-# Requirements
-# ------------
-#
-# * Git
-# * Ruby >= 1.8.7
-# * Rubygems
-# * Rails >= 3.0.7
-# * Sun Java 6 (for ElasticSearch)
-#
-#
-# Usage
-# -----
-#
-#     $ rails new tired -m https://github.com/karmi/tire/raw/master/examples/rails-application-template.rb
-#
-# ===================================================================================================================
-
 require 'rubygems'
 
 begin
