@@ -107,6 +107,7 @@ puts        '-'*80, ''; sleep 1
 
 gem 'tire'
 gem 'will_paginate', '~> 3.0'
+gem 'therubyracer'
 
 git :add => '.'
 git :commit => "-m 'Added gems'"
